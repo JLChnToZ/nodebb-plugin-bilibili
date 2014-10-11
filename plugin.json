@@ -1,0 +1,16 @@
+{
+	"id": "nodebb-plugin-bilibili",
+	"name": "NodeBB BiliBili Plugin",
+	"description": "NodeBB Plugin that allows users to embed BiliBili videos inline in their posts.",
+	"url": "https://github.com/JLChnToZ/nodebb-plugin-bilibili",
+	"library": "./index.js",
+	"staticDirs": {
+        "embed": "static"
+    },
+	"less": [
+		"responsive-embed.less"
+	],
+	"hooks": [
+		{ "hook": "filter:post.parse", "method": "parse", "callbacked": true }
+	]
+}
