@@ -1,6 +1,6 @@
 # NodeBB BiliBili Plugin
 
-This NodeBB plugin allows users to embed [BiliBili Douga](http://www.nicovideo.jp/) videos inline in their posts.
+This NodeBB plugin allows users to embed [BiliBili](http://www.bilibili.com/) videos inline in their posts.
 
 ## Installation
 
