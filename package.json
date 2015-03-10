@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-bilibili",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "NodeBB Plugin that allows users to embed BiliBili videos inline in their posts.",
   "main": "index.js",
   "scripts": {
@@ -15,10 +15,17 @@
     "Plugin",
     "bilibili"
   ],
+  "nbbpm": {
+    "compatibility": "^0.6.0"
+  },
   "author": "Jeremy Lam <jlchntoz@hkcdc.org> (http://gh.jlctz.tk/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/JLChnToZ/nodebb-plugin-bilibili/issues"
   },
+  "readme": "",
+  "readmeFilename": "README.md",
+  "_id": "nodebb-plugin-bilibili@0.1.1",
+  "_from": "nodebb-plugin-bilibili@~0.1.1",
   "homepage": "https://github.com/JLChnToZ/nodebb-plugin-bilibili"
 }
