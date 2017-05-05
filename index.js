@@ -8,7 +8,7 @@
       '<embed width="440" height="356" wmode="transparent"'+
       'quality="high" allowfullscreen="true" flashvars="playMovie=true&auto=1"'+
       'pluginspage="http://get.adobe.com/flashplayer/"'+
-      'allowscriptaccess="never" src="http://share.acg.tv/flash.swf?aid=$1&page=1" '+'type="application/x-shockwave-flash"class="embed-responsive-item"></div>'
+      'allowscriptaccess="never" src="//static.hdslb.com/miniloader.swf?aid=$1&page=1" '+'type="application/x-shockwave-flash"class="embed-responsive-item"></div>'
     }
   ];
 
