@@ -24,7 +24,7 @@
 
 	bili.addScripts = function (scripts, callback){
 		//console.log("o.o...");
-		scripts.push('node_modules/nodebb-plugin-bilibili/public/src/bilibili.js');
+		scripts.push('/src/bilibili.js');
 		callback(null,scripts);
 	}
 })(module.exports);
