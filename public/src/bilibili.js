@@ -1,3 +1,4 @@
+//gen html
 function genBilibiliFrame(aid,cid,width,height,divid)
 {
 	var f = '<iframe src="http://www.bilibili.com/html/html5player.html?aid='+
@@ -16,6 +17,7 @@ function genBilibiliFrame(aid,cid,width,height,divid)
 	return f;
 }
 
+//get video cid
 function genBiliVideo(aid,width,height,divid)
 {
 	$.get( "https://cors-anywhere.herokuapp.com/www.bilibili.com/video/av" + aid, function( data ) {
@@ -25,11 +27,3 @@ function genBiliVideo(aid,width,height,divid)
 		divid.innerHTML = genBilibiliFrame(aid,data.match(/cid=\d+/)[0].match(/\d+/)[0],width,height);
 	});
 }
-/*
-$(".bilibili").click(function(){
-	console.log(this.id);
-	console.log(this.innerHTML);
-	this.innerText = "Loading Video...";
-	genBiliVideo(this.id,640,480,this);
-});
-*/
