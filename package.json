@@ -1,31 +1,54 @@
 {
-  "name": "nodebb-plugin-bilibili",
-  "version": "0.1.2",
-  "description": "NodeBB Plugin that allows users to embed BiliBili videos inline in their posts.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
+  "_from": "git+https://github.com/feilongfl/nodebb-plugin-bilibili.git",
+  "_id": "nodebb-plugin-bilibili@0.1.2",
+  "_inBundle": false,
+  "_integrity": "sha1-tAe3z3FZ0yqM612UsFLGlnfJGoI=",
+  "_location": "/nodebb-plugin-bilibili",
+  "_phantomChildren": {},
+  "_requested": {
     "type": "git",
-    "url": "https://github.com/JLChnToZ/nodebb-plugin-bilibili.git"
+    "raw": "https://github.com/feilongfl/nodebb-plugin-bilibili.git",
+    "rawSpec": "https://github.com/feilongfl/nodebb-plugin-bilibili.git",
+    "saveSpec": "git+https://github.com/feilongfl/nodebb-plugin-bilibili.git",
+    "fetchSpec": "https://github.com/feilongfl/nodebb-plugin-bilibili.git",
+    "gitCommittish": "master"
   },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/feilongfl/nodebb-plugin-bilibili.git#3264ed5cd62da6af8eb8c8243790e44cf4e77439",
+  "_spec": "https://github.com/feilongfl/nodebb-plugin-bilibili.git",
+  "_where": "E:\\nodebb\\NodeBB",
+  "author": {
+    "name": "Jeremy Lam",
+    "email": "jlchntoz@hkcdc.org",
+    "url": "http://gh.jlctz.tk/"
+  },
+  "bugs": {
+    "url": "https://github.com/JLChnToZ/nodebb-plugin-bilibili/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "NodeBB Plugin that allows users to embed BiliBili videos inline in their posts.",
+  "homepage": "https://github.com/JLChnToZ/nodebb-plugin-bilibili",
   "keywords": [
     "NodeBB",
     "Plugin",
     "bilibili"
   ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "nodebb-plugin-bilibili",
   "nbbpm": {
     "compatibility": "^0.6.0"
   },
-  "author": "Jeremy Lam <jlchntoz@hkcdc.org> (http://gh.jlctz.tk/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/JLChnToZ/nodebb-plugin-bilibili/issues"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JLChnToZ/nodebb-plugin-bilibili.git"
   },
-  "readme": "",
-  "readmeFilename": "README.md",
-  "_id": "nodebb-plugin-bilibili@0.1.1",
-  "_from": "nodebb-plugin-bilibili@~0.1.1",
-  "homepage": "https://github.com/JLChnToZ/nodebb-plugin-bilibili"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.2"
 }
