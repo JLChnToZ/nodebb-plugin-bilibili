@@ -21,4 +21,10 @@
 			callback(ex, data);
 		}
 	};
+
+	bili.addScripts = function (scripts, callback){
+		console.log("o.o...");
+		scripts.push('node_modules/nodebb-plugin-bilibili/public/src/bilibili.js');
+		callback(null,scripts);
+	}
 })(module.exports);

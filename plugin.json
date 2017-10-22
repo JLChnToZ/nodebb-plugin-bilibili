@@ -7,7 +7,14 @@
 	"less": [
 		"responsive-embed.less"
 	],
+	"staticDirs": {
+		"lib": "public/src"
+	},
+	"scripts": [
+		"public/src/bilibili.js"
+	],
 	"hooks": [
-		{ "hook": "filter:parse.post", "method": "parse", "callbacked": true }
+		{ "hook": "filter:parse.post", "method": "parse", "callbacked": true },
+		{ "hook": "filter:scripts.get", "method": "addScripts", "callbacked": true }
 	]
 }
