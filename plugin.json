@@ -8,7 +8,6 @@
 		"responsive-embed.less"
 	],
 	"hooks": [
-		{ "hook": "filter:parse.post", "method": "parse", "callbacked": true },
-		{ "hook": "action:ajaxify.dataLoaded","method":"onload"}
+		{ "hook": "filter:parse.post", "method": "parse", "callbacked": true }
 	]
 }
