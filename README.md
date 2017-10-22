@@ -8,8 +8,8 @@ This NodeBB plugin allows users to embed [BiliBili](http://www.bilibili.com/) vi
 
 ## screenshots
 
-    ![](screenshots/1.jpg)
-    ![](screenshots/2.jpg)
-    ![](screenshots/3.jpg)
-    ![](screenshots/4.jpg)
-    
+![](screenshots/1.jpg)
+![](screenshots/2.jpg)
+![](screenshots/3.jpg)
+![](screenshots/4.jpg)
+
