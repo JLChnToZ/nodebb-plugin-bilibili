@@ -24,7 +24,7 @@
 
 	bili.addScripts = function (scripts, callback){
 		//console.log("o.o...");
-		scripts.push('/src/bilibili.js');
+		scripts.push('/assets/src/bilibili.js');
 		callback(null,scripts);
 	}
 })(module.exports);
