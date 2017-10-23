@@ -41,7 +41,7 @@
   "main": "index.js",
   "name": "nodebb-plugin-bilibili",
   "nbbpm": {
-    "compatibility": "^0.6.0"
+    "compatibility": "^1.6.1"
   },
   "repository": {
     "type": "git",
