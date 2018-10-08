@@ -1,7 +1,7 @@
 //gen html
 function genBilibiliFrame(aid,cid,width,height,divid)
 {
-	var f = '<iframe src="https://www.bilibili.com/html/html5player.html?aid='+
+	var f = '<iframe src="https://player.bilibili.com/player.html?aid='+
 		aid+
 		'&cid='+
 		cid+
@@ -21,9 +21,11 @@ function genBilibiliFrame(aid,cid,width,height,divid)
 function genBiliVideo(aid,width,height,divid)
 {
 	$.get( "https://cors-anywhere.herokuapp.com/www.bilibili.com/video/av" + aid, function( data ) {
-		//console.log(data.match(/cid=\d+/)[0].match(/\d+/)[0]);
-		// console.log(genBilibiliFrame(aid,data.match(/cid=\d+/)[0].match(/\d+/)[0],width,height));
+		let d = data.match(/cid=\d+/)[0].match(/\d+/)[0];
+		console.log(d);
+		let frame = genBilibiliFrame(aid,d,width,height);
+		console.log(frame);
 		divid.className = "bilibilivideo";
-		divid.innerHTML = genBilibiliFrame(aid,data.match(/cid=\d+/)[0].match(/\d+/)[0],width,height);
+		divid.innerHTML = frame;
 	});
 }

@@ -4,7 +4,7 @@
 		{ // Video
 			from: /<a href="(?:https?:\/\/)?(?:www\.)?bilibili\.(?:tv|com)\/video\/av(\d+).*?">.+<\/a>/g,
 			to: '<div class="embed-responsive embed-responsive-16by9">'+
-			'<iframe allowfullscreen="" scrolling="no" src="//www.bilibili.com/html/player.html?aid=$1&as_wide=1" '+
+			'<iframe allowfullscreen="" scrolling="no" src="//player.bilibili.com/player.html?aid=$1&as_wide=1" '+
 			'style="border:0;height:100%;left:0;position:absolute;width:100%"></iframe></div>'
 		}
 	];
