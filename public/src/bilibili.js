@@ -1,7 +1,7 @@
 //gen html
 function genBilibiliFrame(aid,cid,width,height,divid)
 {
-	var f = '<iframe src="https://www.bilibili.com/html/html5player.html?aid='+
+	var f = '<iframe src="https://player.bilibili.com/player.html?aid='+
 		aid+
 		'&cid='+
 		cid+
