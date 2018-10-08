@@ -21,8 +21,8 @@ function genBilibiliFrame(aid,cid,width,height,divid)
 function genBiliVideo(aid,width,height,divid)
 {
 	$.get( "https://cors-anywhere.herokuapp.com/www.bilibili.com/video/av" + aid, function( data ) {
-		//console.log(data.match(/cid=\d+/)[0].match(/\d+/)[0]);
-		// console.log(genBilibiliFrame(aid,data.match(/cid=\d+/)[0].match(/\d+/)[0],width,height));
+		console.log(data.match(/cid=\d+/)[0].match(/\d+/)[0]);
+		console.log(genBilibiliFrame(aid,data.match(/cid=\d+/)[0].match(/\d+/)[0],width,height));
 		divid.className = "bilibilivideo";
 		divid.innerHTML = genBilibiliFrame(aid,data.match(/cid=\d+/)[0].match(/\d+/)[0],width,height);
 	});
